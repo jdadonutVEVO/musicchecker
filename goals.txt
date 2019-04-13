@@ -1,0 +1,25 @@
+What I want for Beta/V1:
+1. search a user-specified database for files, and display them in a list inside of a GUI.
+1a. Have the user input as many or as few folders as 
+they wish and specifically exclude types of files 
+(separated into Music, Video, Pictures, and Misc)
+or just file extensions. Auto remove application
+files, such as .exe, .js, .java, .bat, .dll, etc.
+2. Check files on previously mentioned list for metadata, and put them in separate lists as a result.
+2a. Look for metadata, and make lists that user 
+cannot see, make these lists into 3 categories:
+Album Metadata, only Artist metadata, and 
+No Discriminating metadata.
+3. Have a file system created in a user-specified area, sorting the music.
+3a. Have the default export folder be the user's music folder. Sort by
+default in the structure "Album/Artist/Song.???" Have the files containing
+no metadata for the Album, but MD for the Artist in "By Artist/Artist/Song.???"
+4. Export the files into respective folders and keep the GUI open, with the non-exported files still there
+4a. Allow the user to add metadata to files after first export.
+Allow the user to keep going until they are satisfied.
+Use a Command prompt interface to move files and make folders
+but hide the interface from the user. Allow the user to state whether
+or not they would like empty folders deleted.
+5. Export cover art images as well
+5a. If there is more then 10MB of other files, and NO more music files containing metadata,
+take the image files, clear them with the user, and move them to the fs as cover art.
